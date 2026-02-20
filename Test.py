@@ -34,6 +34,5 @@ print(4 * 2)
 print(16 //2)
 print(10 - 2)
 
-favorite = "name"
-favoritactor = "idk"
-Print(favorite)
+favorite_actor = "The guy who plays Batman"
+print(favorite_actor)
