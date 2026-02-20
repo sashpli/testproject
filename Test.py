@@ -36,3 +36,4 @@ print(10 - 2)
 
 favorite = "name"
 favoritactor = "idk"
+Print(favorite)
