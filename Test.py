@@ -36,3 +36,4 @@ print(10 - 2)
 
 favorite_actor = "The guy who plays Batman"
 print(favorite_actor)
+print(age)
