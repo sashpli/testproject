@@ -70,3 +70,4 @@ cars_message_2 = ("I like " + cars[2] + "'s. But sometimes, its better to drive 
 print(cars_message_2)
 print(cars_messege + " " + cars_message_2 + "I dont know")
 print(f"{cars_messege},\nbut I prefer japanese cars")
+print(cars_messege + ", italian cars a great")
