@@ -1,3 +1,5 @@
+from traceback import print_tb
+
 first_name = "Sasa"
 last_name = "Pliso"
 full_name = first_name + " " + last_name
@@ -71,3 +73,51 @@ print(cars_message_2)
 print(cars_messege + " " + cars_message_2 + "I dont know")
 print(f"{cars_messege},\nbut I prefer japanese cars")
 print(cars_messege + ", italian cars a great")
+
+#adding a make afterword with append (appending)
+motorcycles = ['honda' , 'yamaha' , 'suzuki']
+motorcycles[0] = 'ducati'
+print(motorcycles)
+motorcycles.append('ducati')
+print(motorcycles)
+
+motorcycles_2 = [] #empty list, adding makes afterword
+motorcycles_2.append('triumph')
+motorcycles_2.append('BMW')
+motorcycles_2.append('motor guzzi')
+print(motorcycles_2)
+
+#inserting elements into a list with .insert
+motorcycles_2.insert(3, 'ducati')
+print(motorcycles_2)
+
+#removing item form list according to position or value with del
+motorcycles_3 = ['Honda' , "BMW" , 'Motor Guzzi']
+print(motorcycles_3)
+del motorcycles_3[0]
+print(motorcycles_3)
+
+#pop() - Removes the last item on list - and lets you work with this item. The term pop comes from thinking of a list as a stack of items and popping one item off the top of the stack.
+
+motorcycles_4 = ['A' , 'B' , 'C']
+print(motorcycles_4)
+
+popped_motorcycle = motorcycles_4.pop()
+print(motorcycles_4)
+print(popped_motorcycle)
+
+last_owned = motorcycles_4.pop()
+print("the last owned motorcycle is " + last_owned + "!")
+
+cars_owned = ['Fiat' , 'Ford' , 'VW']
+best_car = cars_owned.pop(0)
+print(f"The best car I owned was a {best_car.upper()}.")
+
+cars_owned_2 = ['Fiat' , 'Ford' , 'VW']
+print(cars_owned_2)
+cars_owned_2.remove('VW')
+print(cars_owned_2)
+to_expensive = "Ford"
+cars_owned_2.remove(to_expensive)
+print(cars_owned_2)
+print("I sold the " + to_expensive + " because it was expensive")
