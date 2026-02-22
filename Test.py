@@ -37,3 +37,36 @@ print(10 - 2)
 favorite_actor = "The guy who plays Batman"
 print(favorite_actor)
 print(age)
+
+# comment
+bicycles = ['trek', 'canondale' , 'redline', 'specialized']
+print(bicycles)
+print(bicycles[0])
+print(bicycles[1].title())
+print(bicycles[1].title().strip())
+print(bicycles[1].strip().title())
+print(bicycles[-1])
+
+messege = "My first bicycle was a " + bicycles[-1].title() + "."
+print(messege)
+message_2 = "My " + bicycles[0].title() + " was stolen at a point"
+print(message_2)
+print(f"My first bicycle was a {bicycles[-1].title()} and it got stolen at a point")
+
+names = [ "Bob" , "Alex" , "John"]
+print(names[0])
+print(names[1])
+print(names[2])
+
+messege_4 = "Hallo " + names[0].title() + " how are you?\nHow are you doing today " + names[1].title() + "?\nHow is " + names[2].title() + " doing?"
+print(messege_4)
+print(f"How is {names[0].title()} doing?\nAlso how is {names[1].title()} doing?")
+
+cars = ['Alfa Rommeo' , 'Maserati' , 'Ferrari' , 'Honda']
+print(f"I would like to drive a {cars[1]} someday")
+cars_messege = "I would like to drive a " + cars[0] + " someday"
+print(cars_messege)
+cars_message_2 = ("I like " + cars[2] + "'s. But sometimes, its better to drive a reliable " + cars[3] + ".")
+print(cars_message_2)
+print(cars_messege + " " + cars_message_2 + "I dont know")
+print(f"{cars_messege},\nbut I prefer japanese cars")
