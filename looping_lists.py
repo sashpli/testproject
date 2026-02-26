@@ -18,3 +18,5 @@ for animal in animals:
 print(f"All those animals have four legs in common, they would make a great pet\n")
 
 
+
+
