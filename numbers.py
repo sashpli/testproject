@@ -75,4 +75,4 @@ for value in range(3, 31, 3):
     multiples.append(value)
 print(multiples)
 
-
+numbers = []

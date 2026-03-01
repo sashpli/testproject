@@ -21,4 +21,14 @@ print(max(zahlen))
 print(sum(zahlen))
 
 squares = [i**2 for i in range(1,11)]
-print(squares)
+
+for value in range(1, 21):
+    print(value)
+print(("\n"))
+#million = list(range(1, 1000001))
+#for value in million:
+    #print(value)
+
+oddnumber = range(1, 20, 2)
+for value in oddnumber:
+    print(value)
