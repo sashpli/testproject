@@ -32,3 +32,14 @@ print(("\n"))
 oddnumber = range(1, 20, 2)
 for value in oddnumber:
     print(value)
+
+multiples = []
+for value in range(3, 31, 3):
+    multiples.append(value)
+print(multiples)
+
+cubes = [value**3 for value in range(1, 11)]
+print(cubes)
+
+players = ['charles' , 'martina' , 'michael' , 'florence' , 'eli']
+for player in players:
