@@ -139,6 +139,13 @@ for company in list_companies:
     else:
         print(f"{company.title()} is not on the list")
 
+colors = 'blue'
+if colors != 'red':
+    print(f"{colors.title()} is a good color")
+
+colors = 'red'
+if colors == 'red':
+    print(f"{colors.title()} is a good color")
 
 
 
