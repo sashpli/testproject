@@ -56,3 +56,13 @@ if 'pepperoni' in requested_toppings:
     print("Adding pepperoni")
 print("\nFinished making your pizza!")
 
+gehalt = 2001
+if gehalt == 2000:
+    print('Ihr Gehalt is genau richtig')
+elif gehalt <= 1999:
+    print('Ihr Gehalt is zu niedrig')
+elif gehalt >= 2001:
+    print('Ihr Gehalt ist hoch')
+
+
+
