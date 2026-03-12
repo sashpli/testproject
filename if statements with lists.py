@@ -53,3 +53,23 @@ for requested_option in requested_options:
     else:
         print(f"Sorry, we don't do {requested_option} here!")
 print("Finished tuning your car")
+
+requested_toppings = ['mushrooms' , 'green peppers' , 'extra cheese']
+
+car_colors = {'red' : 1000 , 'green' : 2000 , 'blue' : 3000 }
+requested_colors = ['red' , 'blue' , 'black']
+for requested_color in requested_colors:
+    if requested_color in car_colors:
+        print(f"Adding {requested_color} to your car which costs ${car_colors[requested_color]} to your car")
+    else:
+        print(f"Sorry, we don't have {requested_color}!")
+
+requested_toppings = []  #check ob eine liste leer ist, wenn wert drin dann wird if statement ausgegeben
+
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print(f"Adding {requested_topping} to your pizza")
+else:
+        print("Are you sure you want a plain pizza?")
+
+
