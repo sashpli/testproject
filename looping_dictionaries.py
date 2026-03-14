@@ -56,6 +56,7 @@ for name in fav_lang.keys():
     if name in friends:
         print(f"Hi {name.title()}, I see your favorite language is {fav_lang[name].title()}!\n")
 
+# find out if a particular person was in the list
 fav_lang = {
     'jen': 'python',
     'sarah': 'c',
@@ -64,3 +65,6 @@ fav_lang = {
     }
 if 'erin' not in fav_lang.keys():
     print("Erin, please take our poll!")
+
+# looping through dictionary keys in order
+
