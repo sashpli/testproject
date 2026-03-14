@@ -52,3 +52,17 @@ else:
 alien_0['x_position'] = alien_0['x_position'] + x_incriment
 
 print(f"New x-position: {str(alien_0['x_position'])}")
+
+# removing key value pairs
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+del alien_0['color']
+print(alien_0)
+
+# a dictionary of similar objects
+fav_lang = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+}
