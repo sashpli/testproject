@@ -65,4 +65,38 @@ fav_lang = {
     'sarah': 'c',
     'edward': 'ruby',
     'phil': 'python',
-}
+    }
+print(f"Sarah's favorite language is {fav_lang['sarah'].title()}")
+print(fav_lang['sarah'].title())
+print("\n")
+
+persons = {'first_name': 'john', 'last_name': 'smith', 'age': 25, 'city': 'washington'}
+print(persons['first_name'])
+print(persons['last_name'])
+print(persons['age'])
+print(persons['city'])
+print(f"{persons['first_name'].title()} {persons['last_name'].title()} {persons['age']}")
+
+fav_numbers = {'john': 7,
+               'max': 11,
+               'sarah': 8,
+               'edward': 9,
+               }
+print(fav_numbers['john'])
+print(fav_numbers['max'])
+print(fav_numbers['sarah'])
+print(fav_numbers['edward'])
+
+print("\n")
+
+glossary = {'string': 'A string is a text',
+            'integer': 'An integer is a whole number',
+            'if statement': 'An if statement checks if condition is true',
+            'boolean': 'A boolean is a value that can only be true or false',
+            'dictionary': 'A dictionary stores information in key-value pairs'
+            }
+print(f"What is a string?\n{glossary['string']}\n")
+print(f"What is a integer?\n{glossary['integer']}\n")
+print(f"What is a boolean?\n{glossary['boolean']}\n")
+print(f"What is a dictionary?\n{glossary['dictionary']}\n")
+print(f"What is a if statement?\n{glossary['if statement']}\n")
