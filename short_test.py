@@ -23,3 +23,12 @@ fav_lang = {
     }
 for name, language in fav_lang.items(): #name und language sind key und value
     print(f"Name: {name.title()}\nLanguage: {language.title()}\n")
+
+rivers = {'nile': 'egypt',
+          'euphrat': 'iraq',
+          'tigris': 'iraq',
+          'mississippi': 'USA',
+          'amazonas': 'brasil'}
+
+if rivers.values() == 'USA':
+    print(f"{river.title()} runs through {place}")

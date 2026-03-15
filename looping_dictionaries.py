@@ -67,4 +67,70 @@ if 'erin' not in fav_lang.keys():
     print("Erin, please take our poll!")
 
 # looping through dictionary keys in order
+fav_lang = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+for name in sorted(fav_lang.keys()):
+    print(name.title() + ", thank you for making a poll")
 
+# looping through values
+fav_lang = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+print("the following languages have been mentioned")
+for language in fav_lang.values():
+    print(language.title())
+
+# unsing set for unique values and not repeating values that are double
+fav_lang = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+print("The following languages have been mentioned")
+for language in set(fav_lang.values()):
+    print(language.title())
+
+# Glossary 2
+glossary = {'string': 'A string is a text',
+            'integer': 'An integer is a whole number',
+            'if statement': 'An if statement checks if condition is true',
+            'boolean': 'A boolean is a value that can only be true or false',
+            'dictionary': 'A dictionary stores information in key-value pairs',
+            'python': 'A progamming language',
+            'set': 'I used by looping the list and dont get double elements'
+            }
+for keys, values in glossary.items():
+    print(f'\nWhat does "{keys}" mean?')
+    print(values)
+
+print("\n")
+#rivers
+rivers = {'nile': 'egypt',
+          'euphrat': 'iraq',
+          'tigris': 'iraq',
+          'mississippi': 'USA',
+          'amazonas': 'brasil'}
+for river, country in rivers.items():
+    if country == 'USA':
+        print(f"{river.title()} runs through the {country}")
+    elif country != 'USA':
+        print(f"{river.title()} runs through {country.title()}")
+for river in rivers.keys():
+    print(river)
+for country in rivers.values():
+    print(country)
+#polling
+fav_lang = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
