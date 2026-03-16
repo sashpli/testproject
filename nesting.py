@@ -87,3 +87,21 @@ for username, user_info in users.items():
 
     print(f"Full Name: {full_name}")
     print(f"Location: {location}")
+
+# 6-1 Person (Test
+persons = {'first_name': 'max',
+           'last_name': 'bauer',
+           'age': 43,
+           'city': 'miami '}
+for key, values in persons.items():
+    print(values)
+# 6-2 Favorite Numbers
+
+fav_numbers = {'max': 7,
+               'john': 9,
+               'mary': 11,
+               'jane': 99,
+               'ted': 89}
+for names, numbers in fav_numbers.items():
+    print(f"{names.title()}'s favorite number is:")
+    print(f"{numbers}")
