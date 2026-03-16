@@ -53,3 +53,41 @@ if 'watermelon' in favorite_fruits:
     print('You really like watermelons')
 
 
+aliens = []
+for alien_number in range(30):
+    new_alien = {'color': 'green', 'speed': 'slow', 'points': 10}
+    aliens.append(new_alien)
+for alien in aliens[:3]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
+for alien in aliens[:5]:
+    print(alien)
+print("...")
+print(f"Total numbers of aliens {len(aliens)}")
+
+
+
+
+
+
+cars = []
+for car_number in range(20):
+    new_car = {'color': 'black', 'speed': 'slow', 'price': 50000}
+    cars.append(new_car)
+for car in cars[0:3]:
+    if car['color'] == 'black':
+        car['color'] = 'red'
+        car['speed'] = 'fast'
+        car['price'] = 80000
+for car in cars[3:6]:
+    if car['color'] == 'black':
+        car['color'] = 'blue'
+        car['speed'] = 'extreme'
+        car['price'] = 150000
+for car in cars[:10]:
+    print(car)
+print(f"Total numbers of cars {len(cars)}")
+
+
