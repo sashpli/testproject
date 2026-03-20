@@ -134,7 +134,7 @@ fav_lang = {
     'edward': 'ruby',
     'phil': 'python',
     }
-persons = ['jen', 'sarah', 'max', 'phil', 'john}']
+persons = ['jen', 'sarah', 'max', 'phil', 'john']
 for person in persons:
     if person in fav_lang.keys():
         print(f"{person.title()} thank you for taking the poll")
