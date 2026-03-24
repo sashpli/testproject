@@ -125,5 +125,48 @@ for name in friends:
         print(f"{name.title()} thank you for taking the poll")
     else:
         print(f"{name.title()} take the poll")
+friends = {"John "}
 
+user_0 = {
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',
+    }
+for key, value in user_0.items():
+    print(f"Key: {key}")
+    print(f"Value: {value}")
 
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys():
+    print(name.title())
+    if name in friends:
+        print(f"Hi {name.title()} thank you for taking the poll")
+
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+print("The following languages have been mentioned:")
+for language in favorite_languages.values():
+    print(language.title())
+
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    }
+friends = ['jen', 'edward', 'sarah', 'jeff', 'george']
+for name in friends:
+    if name in favorite_languages.keys():
+        print(f"Hi {name.title()} thank you for taking the poll")
+    else:
+        print(f"{name.title()} take the poll")
