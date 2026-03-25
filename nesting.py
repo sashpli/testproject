@@ -65,3 +65,54 @@ pizza = {
 print(f"You ordered {pizza['crust']}-crust pizza with the following toppings:")
 for topping in pizza['toppings']:
     print(topping)
+
+# favorite languages.py
+favorite_languages = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+}
+for name, languages in favorite_languages.items():
+    print(f"\n {name.title()}'s favorite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
+
+
+favorite_cars = {
+    'john': ['alfa romeo', 'bwm', 'audi'],
+    'tom': ['mercedes', 'toyota'],
+    'jeff': ['ferrari', 'lamborghini'],
+    'bob': ['ford'],
+    'ted': ['porsche', 'jaguar']
+}
+# calling the KEYS and VALUES with .items()
+for name, make in favorite_cars.items():
+    if len(make) == 1:
+        print(f"{name.title()}'s favorite car is:")
+    else:
+        print(f"{name.title()}'s favorite cars are:")
+    for car in make:
+        print(f"{car.title()}")
+
+# A dictionary in a Dictionary
+# many_users.py
+
+users = {
+    'aeinstein': {
+        'first': 'albert',
+        'last': 'einstein',
+        'location': 'princeton',
+    },
+    'mcurie': {
+        'first': 'marie',
+        'last': 'curie',
+        'location': 'paris',
+    }
+}
+for username, userinfo in users.items():
+    print(f"Username: {username}")
+    full_name = userinfo['first'] + ' ' + userinfo['last']
+    location = userinfo['location']
+    print(f"\tFull Name: {full_name.title()}")
+    print(f"\tLocation: {location.title()}")
