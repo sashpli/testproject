@@ -143,6 +143,67 @@ for pet in pets:
 
 
 
+# 6-9 Favorite Places - three names as keys and one of three favorite places for each person
+favorite_places = {
+    'john':{'fav_place_1': 'london',
+            'fav_place_2': 'tokyo',
+            'fav_place_3': 'denver',},
+    'ted': {'fav_place_1': 'paris',},
+    'jerry': {'fav_place_1': 'new york',
+              'fav_place_2': 'chicago',
+              'fav_place_3': 'boston',},
+    'adam': {'fav_place_1': 'berlin',
+             'fav_place_2': 'sacramento',}
+}
+for name, places in favorite_places.items():
+    print(f"{name.title()}'s favorite places are:")
+    for rank, place in places.items():
+        print(f"{place.title()}")
+print('\n')
+
+# 6-10 Favorite Numbers
+favorite_numbers = {
+    'max': {'num_1': 5, 'num_2': 99, 'num_3': 65},
+    'john': {'num_1': 9},
+    'tom': {'num_1': 7, 'num_2': 19, 'num_3': 87, 'num_4': 4},
+    'bob': {'num_1': 17, 'num_2': 0},
+    'jeff': {'num_1': 9, 'num_2': 2, 'num_3': 38, 'num_4': 32, 'num_5': 5},
+}
+for name, numbers in favorite_numbers.items():
+    if len(numbers) == 1:
+        for favnumb, number in numbers.items():
+            print(f"{name.title()}'s favorite number is: \n{number}")
+    else:
+        print(f"{name.title()}'s favorite numbers are:")
+        for favnumb, number in numbers.items():
+            print(number)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
