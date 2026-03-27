@@ -116,3 +116,63 @@ for username, userinfo in users.items():
     location = userinfo['location']
     print(f"\tFull Name: {full_name.title()}")
     print(f"\tLocation: {location.title()}")
+
+
+# 6-7 People
+
+person_1 = {'first': 'max', 'last': 'smith', 'age': 30, 'city': 'miami'}
+person_2 = {'first': 'john', 'last': 'bauer', 'age': 40, 'city': 'london'}
+person_3 = {'first': 'bob', 'last': 'schneider', 'age': 50, 'city': 'berlin'}
+persons = [person_1, person_2, person_3]
+for person in persons:
+    print(f"His name is {person['first'].title()} {person['last'].title()}, he is {person['age']} years old and lives in {person['city'].title()}.")
+    print(f"First Name: {person['first'].title()}")
+    print(f"Last Name: {person['last'].title()}")
+    print(f"Age: {person['age']}")
+    print(f"City: {person['city'].title()}")
+
+
+# 6-9 Pets
+tom = {'owner': 'john', 'type': 'cat'}
+jerry = {'owner': 'bob', 'type': 'mouse'}
+teddy = {'owner': 'george', 'type': 'bear'}
+pets = [tom, jerry, teddy]
+for pet in pets:
+    print(f"The owners name is {pet['owner'].title()} and the pet is a {pet['type']}.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
