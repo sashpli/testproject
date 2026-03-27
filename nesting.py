@@ -179,8 +179,19 @@ for name, numbers in favorite_numbers.items():
             print(number)
 
 
+print('\n')
+# 6-11 Cities
 
-
+cities = {'london': {'country': 'united kingdome',
+                     'populations': 9.1,
+                     'fact': 'was founded by the romans'},
+          'new york': {'country': 'united states',
+                       'populations': 8.6,
+                       'fact': 'first name was New Amsterdam'},
+          'tokyo': {'country': 'united kingdome',
+                    'populations': 41,
+                    'fact': 'worlds most populated city'},
+}
 
 
 
