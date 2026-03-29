@@ -1,5 +1,6 @@
 #message = input("Tell me something, and I will repeat it back to you: ")
 #print(message)
+from operator import truediv
 
 # name = input("Please enter you name: ")
 #print("Hello, " + name + "!")
@@ -67,32 +68,58 @@
 
 # Flags
 
-prompt = "\nTell me something and I will reapeat it back to you:"
-prompt += "\nEnter 'quit' to end the program. "
+# prompt = "\nTell me something and I will reapeat it back to you:"
+# prompt += "\nEnter 'quit' to end the program. "
+#
+# active = True
+# while active:
+#     message = input(prompt)
+#
+#     if message == "quit":
+#         active = False
+#     else:
+#         print(message)
+#
+#
+# # Using a break
+#
+# prompt = "\nPlease enter the name of a city you have visited:"
+# prompt += "\n(Enter 'quit' when you are finished.) "
+#
+# while True:
+#     city = input(prompt)
+#     if city == "quit":
+#         break
+#     else:
+#         print(f"I'd love to visite {city.title()}.")
+#
+# prompt = "\nWhat car do you drive? "
+# prompt += "\n(Enter 'quit' when you are finished.) "
+# while True:
+#     car = input(prompt)
+#     if car == "quit":
+#         break
+#     else:
+#         print(f"Thats a nice {car.title()}.")
+#
 
+prompt = "\nWhat car do you drive? "
+prompt += "\n(Enter 'quit' when you are finished.) "
+prompt += "\n--> "
+
+car = ""
 active = True
 while active:
-    message = input(prompt)
-
-    if message == "quit":
+    car = input(prompt)
+    if car == "quit":
         active = False
     else:
-        print(message)
+        print(f"That's a nice a {car.title()}")
 
-
-# Using a break
-
-
-prompt = "\nTell me something and I will reapeat it back to you:"
-prompt += "\nEnter 'quit' to end the program. "
-
-active = True
-while active:
-    message = input(prompt)
-
-    if message == "quit":
-        active = False
-    else:
-        print(message)
+prompt = "\nWhat do you like to eat? "
+food = ""
+while food != "quit":
+    food = input(prompt)
+    print(f"{food.title()} tastes bad!")
 
 
