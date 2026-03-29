@@ -184,15 +184,17 @@ print('\n')
 
 cities = {'london': {'country': 'united kingdome',
                      'populations': 9.1,
-                     'fact': 'was founded by the romans'},
+                     'fact': 'It was founded by the romans'},
           'new york': {'country': 'united states',
                        'populations': 8.6,
-                       'fact': 'first name was New Amsterdam'},
+                       'fact': "It's first name was New Amsterdam"},
           'tokyo': {'country': 'united kingdome',
                     'populations': 41,
-                    'fact': 'worlds most populated city'},
+                    'fact': 'It is the worlds most populated city'},
 }
-
+for name, cities in cities.items():
+    print(f"{name.title()} has a population of about {cities['populations']} million people."
+          f" A fun fact about {name.title()}is: {cities['fact']}")
 
 
 

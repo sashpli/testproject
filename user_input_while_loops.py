@@ -1,0 +1,57 @@
+#message = input("Tell me something, and I will repeat it back to you: ")
+#print(message)
+
+# name = input("Please enter you name: ")
+#print("Hello, " + name + "!")
+
+# prompt = "If you tell us who you are, we can personalize the messages you see."
+# prompt += ("\nWhat is you first name?")
+# name = input(prompt)
+# print(f"Hello, {name}!")
+# prompt = "If you tell us who you are, we can personlaize the message you see"
+# prompt += "\nWhat is you name"
+# name = input(prompt)
+# print(f"Hello {name}!")
+#
+# age = input("How old are you?")
+# age = int(age)
+# age >= 18
+
+# #height = input("How tall are you in inches? ")
+# height = int(height)
+# if height >= 36:
+#     print(f"\nYou are tall enough to rinde")
+# else:
+#     print(f"\nYou'll be able to ride wehen you're a little older")
+
+# # even or odd
+# number = input("Enter a number and I will tell you if its even or odd: ")
+# number = int(number)
+# if number % 2 == 0:
+#     print(f"\n{number} is an even number")
+# else:
+#     print(f"\n{number} is an odd number")
+
+# 7-1 Rental Car
+# cars = input("What rental car would you like? ")
+# print(f"\nLet me see if I can get you a {cars.title()}.")
+#
+# people = input("How many people are in the dinner group? ")
+# people = int(people)
+# if people >= 8:
+#     print("\nSorry, you'll have to wait for a table.")
+# else:
+#     print("\nYour table is ready")
+
+print("\n")
+
+# While Loop
+
+current_number = 1
+while current_number <= 5:
+    print(current_number)
+    current_number += 1
+
+# Choosing when to quit
+
+
