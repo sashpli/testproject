@@ -2,6 +2,8 @@
 #print(message)
 from operator import truediv
 
+from Test import messege
+
 # name = input("Please enter you name: ")
 #print("Hello, " + name + "!")
 
@@ -165,12 +167,21 @@ while current_number < 10:
 #     print("You will have to wait")
 
 # 7-3 Multiples of Ten
-number = input("Enter a number: ")
-number = int(number)
-if number % 10 == 0:
-    print("Even")
-else:
-    print("Odd")
+# number = input("Enter a number: ")
+# number = int(number)
+# if number % 10 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+
+#7-4 Pizza Toppings
+message = ""
+while message != "quit":
+    message = input("Enter a message: ")
+
+    if message != "quit":
+        print(message)
 
 
 
