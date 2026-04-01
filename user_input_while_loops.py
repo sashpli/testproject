@@ -151,18 +151,27 @@ while current_number < 10:
 # 7-1 Rental Car
 
 
-car = input("What kind of rental car would you like? ")
-while car != "":
-    print(car)
-    car = input(f"Let me see if I can find a {car.title()}")
+# car = input("What kind of rental car would you like? ")
+# while car != "":
+#     print(car)
+#     car = input(f"Let me see if I can find a {car.title()}")
+#
+# # 7-2 Restaurant Seating
+# dinner = input("How many people are in your dinner group? ")
+# input = int(dinner)
+# if input < 8:
+#     print("Your table is ready")
+# else:
+#     print("You will have to wait")
 
-# 7-2 Restaurant Seating
-dinner = input("How many people are in your dinner group? ")
-input = int(dinner)
-if input < 8:
-    print("Your table is ready")
+# 7-3 Multiples of Ten
+number = input("Enter a number: ")
+number = int(number)
+if number % 10 == 0:
+    print("Even")
 else:
-    print("You will have to wait")
+    print("Odd")
+
 
 
 
