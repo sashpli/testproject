@@ -51,7 +51,7 @@ from operator import truediv
 # current_number = 1
 # while current_number <= 5:
 #     print(current_number)
-#     current_number += 1
+#     current_number += 1    # += means current_number = current_number + 1
 
 # Choosing when to quit
 
@@ -102,24 +102,74 @@ from operator import truediv
 #     else:
 #         print(f"Thats a nice {car.title()}.")
 #
+#
+# prompt = "\nWhat car do you drive? "
+# prompt += "\n(Enter 'quit' when you are finished.) "
+# prompt += "\n--> "
+#
+# car = ""
+# active = True
+# while active:
+#     car = input(prompt)
+#     if car == "quit":
+#         active = False
+#     else:
+#         print(f"That's a nice a {car.title()}")
+#
+# prompt = "\nWhat do you like to eat? "
+# food = ""
+# while food != "quit":
+#     food = input(prompt)
+#     if food != "quit":
+#         if food.endswith("s"):
+#             print(f"{food.title()} taste bad!")
+#         else:
+#             print(f"{food.title()} tastes bad!")
+#
+#
+# prompt = "\nWhat do you like to eat? "
+# prompt += "\n(Enter 'quit' when you are finished.) "
+# food = ""
+# while True:
+#     food = input(prompt)
+#     if food == "quit":
+#         break
+#     if food.endswith("s"):
+#         print(f"Well I also like {food.title()}!")
+#     else:
+#         print(f"Well I also like {food.title()}s!")
 
-prompt = "\nWhat car do you drive? "
-prompt += "\n(Enter 'quit' when you are finished.) "
-prompt += "\n--> "
+# Using continue in a loop
 
-car = ""
-active = True
-while active:
-    car = input(prompt)
-    if car == "quit":
-        active = False
-    else:
-        print(f"That's a nice a {car.title()}")
+current_number = 0
+while current_number < 10:
+    current_number += 1
+    if current_number % 2 == 0:  # += means current_number = current_number +
+        continue
+    print(current_number)
 
-prompt = "\nWhat do you like to eat? "
-food = ""
-while food != "quit":
-    food = input(prompt)
-    print(f"{food.title()} tastes bad!")
+# 7-1 Rental Car
+
+
+car = input("What kind of rental car would you like? ")
+while car != "":
+    print(car)
+    car = input(f"Let me see if I can find a {car.title()}")
+
+# 7-2 Restaurant Seating
+dinner = input("How many people are in your dinner group? ")
+input = int(dinner)
+if input < 8:
+    print("Your table is ready")
+else:
+    print("You will have to wait")
+
+
+
+
+
+
+
+
 
 
