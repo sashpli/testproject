@@ -20,3 +20,10 @@ if heigt >= 36:
     print("You are tall enough to ride!")
 else:
     print("You are to short for a ride!")
+
+number = input("Please enter a number: ")
+number = int(number)
+if number % 2 == 0:
+    print(f"{number} is an even number.")
+else:
+    print(f"{number} is an odd number.")
