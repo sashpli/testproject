@@ -176,12 +176,16 @@ while current_number < 10:
 
 
 #7-4 Pizza Toppings
-message = ""
-while message != "quit":
-    message = input("Enter a message: ")
+# message = ""
+# while message != "quit":
+#     message = input("Enter a message: ")
+#
+#     if message != "quit":
+#         print(message)
 
-    if message != "quit":
-        print(message)
+
+
+
 
 
 
