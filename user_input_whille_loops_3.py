@@ -74,7 +74,7 @@
 #     print("its a multiple of 10")
 # else:
 #     print("not a multiple of 10")
-
+from operator import truediv
 
 # __________________________________________________________________
 # A WHILE LOOP RUNS AS LONG AS A CERTAIN CONDITION IS " T R U E "
@@ -86,9 +86,37 @@ while current_number <= 5:  # runs as long as its less than or equal 5 !
     current_number += 1  #add 1 after every while loop as long as its less than or equal 5
 
 # letting the user choose when to quit
-prompt = "\nTell me something and I will repeat it back to you: "
-prompt += "\nEnter 'quit' to end the program"
-message = ""
-while message != 'quit':
+# prompt = "\nTell me something and I will repeat it back to you:"
+# prompt += "\nEnter 'quit' to end the program "
+# message = ""
+# while message != 'quit':
+#     message = input(prompt)
+#     print(message)
+
+# prompt = "\nTell me something and I will repeat it back to you:"
+# prompt += "\nEnter 'quit' to end the program "
+# message = ""
+# while message != "quit":
+#     message = input(prompt)
+#     if message != "quit":  # only print IF message is not quit
+#         print(message)
+
+# Using a Flag
+prompt = "\nTell me something and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program "
+
+active = True
+while active:
     message = input(prompt)
-    print(message)
+
+    if message == "quit":
+        active = False
+    else:
+        print(message)
+
+
+
+
+
+
+
