@@ -81,6 +81,14 @@
 
 # counting
 current_number = 1
-while current_number <= 5:  # runs as long as its less than 5 !
+while current_number <= 5:  # runs as long as its less than or equal 5 !
     print(current_number)
-    current_number += 1  #add 1 after every while loop as long as its less than 5
+    current_number += 1  #add 1 after every while loop as long as its less than or equal 5
+
+# letting the user choose when to quit
+prompt = "\nTell me something and I will repeat it back to you: "
+prompt += "\nEnter 'quit' to end the program"
+message = ""
+while message != 'quit':
+    message = input(prompt)
+    print(message)
