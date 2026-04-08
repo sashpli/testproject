@@ -28,55 +28,59 @@
 #     print(f"{number} is even")
 # else:
 #     print(f"{number} is odd")
+#
+#
+# # rental car
+# message = "What kind of rental car do you want? "
+# message = input(message)
+# print(f"Let me find you a {message}")
+#
+# # prompt = input("What kind of car do you want? ")
+# # print(f"{prompt} is a nice car!")
+#
+#
+# # restaurant seating
+# message = input("How many people are in you dinner group? ")
+# message = int(message)
+# if message >= 8:
+#     print("I am sorry you will have to wait")
+# else:
+#     print("Your table is ready")
+#
+#
+# # version 1
+# message = "What kind of rental car do you want? "
+# message = input(message)
+# print(f"Let me see if I can get you a {message}")
+#
+# # version 2
+# message = input("What kind of car do you want to rent2? ")
+# print(f"Let me see if I can get you a {message}")
+#
+#
+#
+#
+# prompt = "How many people are in you group? "
+# prompt = input(prompt)
+# if int(prompt) > 8:
+#     print("Sorry but you have to weit")
+# else:
+#     print("Your table is ready")
+#
+# # asking if its a multiple of 10
+# prompt = "Write a number and I will tell you if it is a multiple of 10 or not: "
+# prompt = input(prompt)
+# if int(prompt) % 10 == 0:
+#     print("its a multiple of 10")
+# else:
+#     print("not a multiple of 10")
 
 
+# __________________________________________________________________
+# A WHILE LOOP RUNS AS LONG AS A CERTAIN CONDITION IS " T R U E "
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# rental car
-message = "What kind of rental car do you want? "
-message = input(message)
-print(f"Let me find you a {message}")
-
-# prompt = input("What kind of car do you want? ")
-# print(f"{prompt} is a nice car!")
-
-
-# restaurant seating
-message = input("How many people are in you dinner group? ")
-message = int(message)
-if message >= 8:
-    print("I am sorry you will have to wait")
-else:
-    print("Your table is ready")
+# counting
+current_number = 1
+while current_number <= 5:  # runs as long as its less than 5 !
+    print(current_number)
+    current_number += 1  #add 1 after every while loop as long as its less than 5
