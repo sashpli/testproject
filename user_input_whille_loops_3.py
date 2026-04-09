@@ -102,39 +102,81 @@ while current_number <= 5:  # runs as long as its less than or equal 5 !
 #         print(message)
 
 # Using a Flag
-prompt = "\nTell me something and I will repeat it back to you:"
-prompt += "\nEnter 'quit' to end the program "
+# prompt = "\nTell me something and I will repeat it back to you:"
+# prompt += "\nEnter 'quit' to end the program "
+#
+# active = True
+# while active:
+#     message = input(prompt)
+#
+#     if message == "quit":
+#         active = False
+#     else:
+#         print(message)
+#
+# # Using break to Exit loop
+# prompt = "\nPlease enter the name of a city you have visited:"
+# prompt += "\n(Enter 'quit' when you are finished)"
+# while True:
+#     city = input(prompt)
+#
+#     if city == "quit":
+#         break
+#     else:
+#         print(f"I'd love to go to {city.title()}!")
+#
+# # Using continue in a loop
+# current_number = 0
+# while current_number < 10:
+#     current_number += 1
+#     if current_number % 2 == 0:
+#         continue
+#     else:
+#         print(current_number)
+#
+# # Avoiding infinite Loops
+# x = 1
+# while x < 5:
+#     print(x)
+#     x += 1
+#
 
-active = True
+
+# 7-1 Pizza Toppings
+# prompt = "\nPlease enter a topping to your pizza: "  #with while True
+# prompt += "\n(Write 'quit' to exit the program.) "
+# while True:
+#     topping = input(prompt)
+#     if topping == "quit":
+#         break
+#     else:
+#         print(f"{topping.title()} added to your pizza!")
+#
+#
+# prompt = "\nPt. 2Please enter a topping to your pizza: "  #with Flag
+# prompt += "\n(Write 'quit' to exit the program.) "
+#
+# active = True
+# while active:
+#     topping = input(prompt)
+#     if topping == "quit":
+#         active = False
+#     else:
+#         print(f"{topping} added as you topping")
+
+# 7-5 Movie Tickets
+prompt = input("How old are you? ")
+age = int(prompt)
 while active:
-    message = input(prompt)
-
-    if message == "quit":
-        active = False
-    else:
-        print(message)
-
-# Using break to Exit loop
-prompt = "\nPlease enter the name of a city you have visited:"
-prompt += "\n(Enter 'quit' when you are finished)"
 while True:
-    city = input(prompt)
-
-    if city == "quit":
+    if age >= 18:
+        print("test")
         break
-    else:
-        print(f"I'd love to go to {city.title()}!")
+    if age <= 17:
+        print("test2")
+        break
 
-# Using continue in a loop
-current_number = 0
-while current_number < 10:
-    current_number += 1
-    if current_number % 2 == 0:
-        continue
-    else:
-        print(current_number)
 
-# Avoiding infinite Loops
 
 
 
